@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="index.css" />
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="sidenav">
+      <p><i class="fas fa-university"></i> Indian Institute of technology</p>
+      <hr />
+      <a href="#batches"><i class="fas fa-users"></i> Batches</a>
+      <a href="#staff"><i class="fas fa-user-tie"></i> Manage staff</a>
+      <a href="#summary"><i class="fas fa-wallet"></i> Fee Summary</a>
+      <a href="#profile"><i class="fas fa-university"></i> Institute Profile</a>
+      <hr />
+      <a href="#messages"><i class="far fa-comment-alt"></i> Direct Messages</a>
+      <a href="#mention"><i class="fas fa-hashtag"></i> Mentions</a>
+      <a href="#bookmark"><i class="fas fa-bookmark"></i> Bookmarked Items</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)"id="myBtn">
+      Departments <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class='w3-hide'>
+      <a href="#">Accounts</a>
+      <a href="#">Physics 10th</a>
+      <a href="#">Evaluation</a>
+      <a href="#">Maths</a>
+       <a href="#">Chemistry</a>
+        <a href="#">Mechanics</a>
+         <a href="#">Computer Science</a>
+          <a href="#">Literature</a>
+           <a href="#">History</a>
+    </div>
+    </div>    <!-- Side Menu -->
+    <div class="main">     <!-- Main Content -->
+      <div class="header">   <!--Header -->
+        <nav class="navbar navbar-light bg-light">
+            <h3>Manage Staff</h3>
+            <img src='images\woman.png'/>
+        </nav>
+        <input type="text" placeholder="Search.." class="bar" />
+         <button type="button" class="btn btn-outline-primary bar">Filters</button>
+          <button type="button" class="btn btn-outline-primary bar">+ New Subject</button>
+      </div>
+      <div class="my_batches">
+        <h3>My Batches</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 js-excerpt excerpt-hidden content">
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-file left"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle right"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-file"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+                 </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-file"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-file"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-file"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+               <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-file"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+       <a role="button" href="#" class="js-show-more s_more">Show more</a>
+      </div>
+       <div class="all_batches">
+        <h3>All Batches</h3>
+           <h4 class="batch_name">Physics, CBSE</h4>
+       <div class="row row-cols-1 row-cols-md-3 g-4 js-excerpt excerpt-hidden content">
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                 <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a role="button" href='#' class="s_more js-show-more" >Show More</a>
+         <h4 class="batch_name">Chemistry, CBSE</h4>
+         <div class="row row-cols-1 row-cols-md-3 g-4 js-excerpt excerpt-hidden content">
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                 <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+        <a role="button" href="#" class="js-show-more s_more">Show more</a>
+        <h4 class="batch_name">Mathematics, CBSE</h4>
+       <div class="row row-cols-1 row-cols-md-3 g-4 js-excerpt excerpt-hidden content">
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                 <h5 class="card-title"></h5>
+               <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+               <p class="card-text"><i class="fas fa-user"></i><span class="p1"></span><i class="fas fa-edit"></i> </p>
+                <p class="card-text"><i class="fas fa-user-circle"></i><span class="p2"></span><i class="fas fa-user-plus"></i></p>
+                <p>Upcoming Classes</p>
+                <p class="p3"></p>
+                <div class="time">
+                    <span class="dot">Mo</span>
+                    <span class="dot">Tu</span>
+                    <span class="dot">We</span>
+                    <span class="dot">Th</span>
+                    <span class="dot">Fr</span>
+                    <span class="dot">Sa</span>
+                    <span class="dot">Su</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a role="button" href="#" class="js-show-more s_more">Show more</a>
+      </div>
+      </div>
+    </div>
+     <script
+      src="https://kit.fontawesome.com/25e0e63193.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

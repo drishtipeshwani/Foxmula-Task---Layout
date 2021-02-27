@@ -1,0 +1,203 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #50394c;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+.sidenav hr {
+  color: white;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+.sidenav a:hover {
+  background-color: #4682b4;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.main {
+  margin-left: 200px;
+}
+.navbar h3 {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 30px;
+  color: #808080;
+}
+.bar {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+img {
+  margin-right: 10%;
+}
+input,
+button {
+  vertical-align: middle;
+}
+.bar {
+  margin-left: 40px;
+}
+.search_form {
+  align-items: center;
+}
+.my_batches h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  overflow: hidden;
+  text-align: left;
+}
+.my_batches h3::before {
+  display: block;
+  float: right;
+  margin-top: 0.8rem;
+  margin-right: 5%;
+  border-top: 3px solid silver;
+  width: 80%;
+  content: '';
+}
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  max-width: 310px;
+  border-radius: 4%;
+  border-color: #808080;
+  color: black;
+}
+
+.all_batches h3 {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: left;
+}
+.all_batches h3::before {
+  display: block;
+  float: right;
+  margin-top: 0.8rem;
+  margin-right: 5%;
+  border-top: 3px solid silver;
+  width: 80%;
+  content: '';
+}
+
+.batch_name {
+  padding-top: 20px;
+  margin-left: 40px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: left;
+}
+.batch_name::before {
+  float: right;
+  margin-top: 0.8rem;
+  margin-right: 40%;
+  border-top: 3px solid silver;
+  width: 40%;
+  content: '';
+}
+.heading button {
+  display: inline-block;
+  vertical-align: top;
+}
+.s_more {
+  appearance: none;
+  background: white;
+  color: #2779bd;
+  display: inline-flex;
+  justify-content: center;
+  height: 26px;
+  text-decoration: none;
+  line-height: 26px;
+  padding: 0 14px;
+  margin-left: 40%;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 1px solid #2779bd;
+}
+.s_more:hover {
+  background: rgba(#2779bd, 0.1);
+}
+
+.excerpt-hidden {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.excerpt-hidden:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.excerpt-visible {
+  height: auto;
+  overflow: auto;
+}
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 20pxpx;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+.card-body p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+.fa-edit {
+  float: right;
+}
+.fa-user-plus {
+  float: right;
+}

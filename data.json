@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "batch": "PHY 10B",
+      "class": "Physics, 10th CBSE",
+      "strength": "100",
+      "date": "Thu, 25th Mar, 12:00 PM"
+    },
+    {
+      "batch": "CY 10A",
+      "class": "Chemistry, 10th CBSE",
+      "strength": "70",
+      "date": "Thu, 25th Mar, 11:00 PM"
+    },
+    {
+      "batch": "MA 9A",
+      "class": "Mathematics, 9th CBSE",
+      "strength": "95",
+      "date": "Thu, 25th Mar, 1:00 PM"
+    },
+    {
+      "batch": "CY 9A",
+      "class": "Chemistry, 9th CBSE",
+      "strength": "60",
+      "date": "Fri, 26th Mar, 10:00 AM"
+    },
+    {
+      "batch": "PHY 9C",
+      "class": "Physics, 9th CBSE",
+      "strength": "85",
+      "date": "Fri, 26th Mar, 12:00 PM"
+    },
+    {
+      "batch": "MA 10C",
+      "class": "Mathematics, 10th CBSE",
+      "strength": "90",
+      "date": "Fri, 26th Mar, 1:00 PM"
+    },
+    {
+      "batch": "PHY 10B",
+      "class": "Andrew Mckinsey",
+      "strength": "50",
+      "date": "Wed, 24th Mar, 2:00 PM"
+    },
+    {
+      "batch": "PHY 10A",
+      "class": "Caleb Smith",
+      "strength": "70",
+      "date": "Thu, 25th Mar, 12:00 PM"
+    },
+    {
+      "batch": "PHY 10C",
+      "class": "Taylor Miller",
+      "strength": "80",
+      "date": "Fri, 25th Mar, 11:00 AM"
+    },
+    {
+      "batch": "PHY 10A",
+      "class": "Thomas Garcia",
+      "strength": "95",
+      "date": "Fri, 25th Mar, 9:00 AM"
+    },
+    {
+      "batch": "PHY 10C",
+      "class": "James Donald",
+      "strength": "100",
+      "date": "Fri, 25th Mar, 10:00 AM"
+    },
+    {
+      "batch": "PHY 10B",
+      "class": "Allen Baker",
+      "strength": "110",
+      "date": "Thu, 24th Mar, 1:00 PM"
+    },
+    {
+      "batch": "CY 9B",
+      "class": "Martin Mckinsey",
+      "strength": "65",
+      "date": "Thu, 24th Mar, 1:00 PM"
+    },
+    {
+      "batch": "CY 9A",
+      "class": "Lewis Walker",
+      "strength": "70",
+      "date": "Sat, 26th Mar, 12:00 PM"
+    },
+    {
+      "batch": "CY 9C",
+      "class": "Lee Walker",
+      "strength": "55",
+      "date": "Thu, 24th Mar, 10:00 AM"
+    },
+    {
+      "batch": "CY 10A",
+      "class": "Brown Smith",
+      "strength": "60",
+      "date": "Thu, 24th Mar, 11:00 AM"
+    },
+    {
+      "batch": "CY 10C",
+      "class": "Davis Moore",
+      "strength": "80",
+      "date": "Fri, 25th Mar, 1:00 PM"
+    },
+    {
+      "batch": "CY 10B",
+      "class": "Miller Taylor",
+      "strength": "90",
+      "date": "Fri, 25th Mar, 3:00 PM"
+    },
+    {
+      "batch": "MA 10B",
+      "class": "Davis Moore",
+      "strength": "75",
+      "date": "Fri, 25th Mar, 1:00 PM"
+    },
+    {
+      "batch": "MA 9B",
+      "class": "Mary Thomson",
+      "strength": "70",
+      "date": "Fri, 25th Mar, 9:00 AM"
+    },
+    {
+      "batch": "MA 10C",
+      "class": "Lisa Baker",
+      "strength": "95",
+      "date": "Fri, 25th Mar, 11:00 AM"
+    },
+    {
+      "batch": "MA 10A",
+      "class": "Young Green",
+      "strength": "85",
+      "date": "Thu, 24th Mar, 3:00 PM"
+    },
+    {
+      "batch": "MA 9A",
+      "class": "Lopez Clark",
+      "strength": "70",
+      "date": "Thu, 24th Mar, 12:00 PM"
+    },
+    {
+      "batch": "MA 9D",
+      "class": "Jennifer King",
+      "strength": "60",
+      "date": "Thu, 24th Mar, 11:00 AM"
+    }
+  ]
+}
